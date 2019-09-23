@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 /**
  * For a given string s, and a given number n, how many 'a's will fit if s is repeated extensively until fulfilling n?
- * <p>
  * INPUT EXAMPLE:
  * joao
  * 20
