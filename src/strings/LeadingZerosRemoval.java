@@ -4,7 +4,9 @@ import java.io.IOException;
 
 public class LeadingZerosRemoval
 {
-
+    /**
+    * Quick regex test: removing leading zeros
+    * */
     public static void main(String[] args) throws IOException
     {
         String[] in = {
