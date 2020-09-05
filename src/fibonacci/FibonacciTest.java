@@ -19,7 +19,7 @@ public class FibonacciTest
     public void test3()
     {
         FibonacciImpl myFib = new FibonacciImpl();
-        assertThat(myFib.fibonacciForCycle(3), is(myFib.fibonacciForCycle(3)));
+        assertThat(myFib.fibonacciForCycle(3), is(2));
     }
 
     @Test

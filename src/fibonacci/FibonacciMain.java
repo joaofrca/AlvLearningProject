@@ -20,7 +20,8 @@ public class FibonacciMain
         int n = scanner.nextInt();
         scanner.close();
         FibonacciImpl myFib = new FibonacciImpl();
-        System.out.println(myFib.fibonacciForCycle(n));
+//        System.out.println(myFib.fibonacciForCycle(n));
+        myFib.printAllFibonacciNumbersUntilN(n);
     }
 
 }

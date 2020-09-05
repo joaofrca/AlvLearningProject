@@ -3,19 +3,17 @@ package testPreparation;
 import java.io.IOException;
 import java.util.Scanner;
 
-/** Empty Test Template
-*/
-public class EmptyTestTemplate
+public class EmptyA
 {
 
-    static void doSomething(String s, long n)
+    static int doSomething(String s, long n)
     {
 
+        return result;
     }
 
     public static void main(String[] args) throws IOException
     {
-
         Scanner in = new Scanner(System.in);
 
         int[] intArray = {3, 4, 3, -1, 1000, 1, 2, 5, 7, 8, 9, 4, 44};
@@ -44,9 +42,7 @@ public class EmptyTestTemplate
             System.out.println(expenditure[i]);
         }
 
-        int count = 0;
-        //long count = doSomething(s, n);
-
+        //        long count = doSomething(s, n);
         System.out.println(" - - - RESULT IS: " + count + " - - -");
     }
 }
